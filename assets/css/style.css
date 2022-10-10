@@ -377,6 +377,7 @@ footer img {
     font-weight: 500;
     line-height: 21px;
     margin-bottom: 12px;
+    letter-spacing: 1.3px;
 }
 .footer-contacts p:first-child {
     margin-bottom:12px ;
@@ -429,3 +430,119 @@ footer img {
         font-size: 24px;    
     }
 }
+
+
+
+/* OUR SERVICE PAGE */
+
+.our-service-section1 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    z-index: -1;
+}
+.our-service-section1 img {
+    max-height: 350px;
+}
+
+.our-service-backg2, .our-service-backg2desk {
+    z-index: 0;
+}
+
+.our-service-backg, .our-service-backgdesk {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: -2;
+}
+.our-service-backgdesk, .our-service-backg2desk {
+    display: none;
+}
+.our-service-section1 h1 {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    max-width: 545px;
+    margin: 0 auto;
+    font-weight: normal;
+    text-align: center;
+}
+.our-service-section1 span {
+    color: #EE4248;
+    font-weight: bold;
+}
+@media (min-width: 1000px) {
+    .our-service-section1 img {
+        max-height: 352px;
+    }
+    .our-service-backg, .our-service-backg2 {
+        display: none;
+    }
+    .our-service-backgdesk, .our-service-backg2desk {
+        display: block;
+        width: 100%;
+        min-height: 470px;
+        object-fit:cover;
+    }
+}
+
+
+
+
+
+@media (max-width: 325px) {
+    .our-service-section1 h1 {
+        top: 80px;
+    }
+}
+
+
+/* ======================================================= */
+
+/* SECTION 3 */
+.our-service-section2 {
+    text-align: center;
+}
+.our-service-section2-img {
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+.os-section2 {
+    text-align: left;
+}
+.os-section2 img {
+    width: 88px;
+    display: block;
+    margin-bottom: 20px;
+}
+.os-section2 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+.os-section2 p span {
+    color: #EE4248;
+    font-weight: bold;
+}
+
+
+@media (min-width: 1000px) {
+    .our-service-section2 {
+        margin-top: 50px;
+    }
+    .our-service-section2-img {
+        width: 45%;
+        max-width: max-content;
+        float: right;
+    }
+    .os-section2 {
+        width: 50%;
+    }
+}
+
+
+
