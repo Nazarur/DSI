@@ -552,6 +552,7 @@ footer img {
 /* OUR PRODUCTS PAGE */
 
 /* SECTION 1 */
+
 .our-products-section1 {
     display: flex;
     justify-content: center;
@@ -596,4 +597,135 @@ footer img {
         margin-top: 90px;
     }
 
+}
+
+/* ============================================================ */
+
+/* OUR technology PAGE */
+
+/* SECTION 1 */
+
+.our-technology-section1 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    z-index: -1;
+}
+.our-technology-backg {
+    object-fit:cover;
+    max-width: 1125px;
+    min-height: 300px;
+    /* max-height: 598px; */
+}
+.ot-section1-title {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    max-width: 823px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ot-section1-title button {
+    display: none;
+    margin: auto;
+    margin-top: 25px;
+    color: #EE4248;
+    background-color: #fff;
+}
+.macbook-pro {
+    width: 100%;
+    max-width: 334px;
+    margin-top: -40px;
+}
+.our-technology-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+.our-technology-main img {
+    /* width: 50%; */
+    max-width: 90px;
+    /* width: 90px; */
+    /* min-width: 110px; */
+}
+
+.our-technology-section1 h1 {
+    max-width: 823px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+.our-technology-section1 span {
+    font-weight: bold;
+}
+
+@media (min-width: 1000px) {
+    .ot-section1-title button {
+        display: block;
+    }
+    .macbook-pro {
+        max-width: 550px;
+        margin-top: -70px;
+    }
+}
+@media (min-width: 1115px) {
+    .macbook-pro {
+        margin-top: -120px;
+    }
+}
+@media (max-width: 435px) {
+    .our-technology-main {
+        display: none;
+    }
+}
+
+
+
+
+
+/* ============================================================ */
+
+/* SECTION 2 */
+
+.our-techonology-section2 {
+    text-align: center;
+}
+.our-techonology-section2-img {
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+.ot-section2 {
+    text-align: left;
+    margin-top: 50px;
+}
+.ot-section2 img {
+    width: 88px;
+    display: block;
+    margin-bottom: 20px;
+}
+.ot-section2 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+.ot-section2 p span {
+    color: #EE4248;
+    font-weight: bold;
+}
+
+@media (min-width: 1000px) {
+    .our-technology-section2 {
+        margin-top: 50px;
+    }
+
+    .ot-section2 {
+        width: 100%;
+    }
 }
