@@ -69,6 +69,7 @@ button {
     border-radius: 4px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     transition: .2s;
+    cursor: pointer;
 }
 button:hover {
     /* transform: scale(1.07); */
@@ -431,7 +432,7 @@ footer img {
     }
 }
 
-
+/* ============================================================ */
 
 /* OUR SERVICE PAGE */
 
@@ -502,7 +503,8 @@ footer img {
 
 /* ======================================================= */
 
-/* SECTION 3 */
+/* SECTION 2 */
+
 .our-service-section2 {
     text-align: center;
 }
@@ -545,4 +547,53 @@ footer img {
 }
 
 
+/* ============================================================ */
 
+/* OUR PRODUCTS PAGE */
+
+/* SECTION 1 */
+.our-products-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 327px;
+    margin-top: 72px;
+    margin-bottom: 30px;
+    padding: 0 5%;
+    background-color: #EE4248;
+}
+.our-products-section1 h1 {
+    width: 100%;
+    max-width: 745px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.our-products-section1 h1 span {
+    font-weight: bold;
+}
+
+
+/* ======================================================= */
+
+/* SECTION 2 */
+
+
+
+.our-products-section2-img {
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+@media (min-width: 1000px) {
+
+    .our-products-section2-img {
+        width: 45%;
+        max-width: max-content;
+        float: right;
+        margin: 0;
+        margin-top: 10%;
+        margin-top: 90px;
+    }
+
+}
